@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-drawer, .close-menu {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.close-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    margin: 2rem;
+}
+
+.special-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background:rgba(0, 0, 0, 0.829);
+    display: none;
+}
+
+
+
+.menu-content {
+    width: 80%;
+    height: 80%;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(190, 2, 59);
+}
